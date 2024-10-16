@@ -31,8 +31,8 @@ CareerHub is a mini job portal application built with MongoDB and Flask. It prov
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/MiniProject2.git
-   cd MiniProject2
+   git clone https://github.com/yourusername/careerhub.git
+   cd careerhub
    ```
 
 2. Edit the docker-compose.yml file to change the volume to the path on your local machine where the project is stored (the default is the Desktop/vanderbilt/fall_24/nosql/MiniProject2 directory on my local machine, so you'll want to change that to a path on your local machine)
