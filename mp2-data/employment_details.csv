@@ -1,0 +1,101 @@
+id,employment_type,average_salary,benefits,remote,job_posting_url,posting_date,closing_date
+1,Part-time,44003,"Professional development assistance, Dental insurance, Parental leave, Retirement plan",True,https://jobs.temporary.com/job-1,2023-09-20,2023-11-23
+2,Contract,128830,"Parental leave, Paid time off, Gym membership, Health insurance",False,https://jobs.full-time.com/job-2,2023-09-23,2023-10-23
+3,Full-time,135886,"Health insurance, Gym membership, Professional development assistance, Dental insurance",True,https://jobs.internship.com/job-3,2023-09-13,2023-11-02
+4,Internship,116593,"Paid time off, Tuition reimbursement, Vision insurance, Retirement plan",False,https://jobs.full-time.com/job-4,2023-09-05,2023-11-16
+5,Temporary,85248,"Vision insurance, Paid time off, Tuition reimbursement, Parental leave",True,https://jobs.contract.com/job-5,2023-10-01,2023-11-13
+6,Full-time,109817,"Gym membership, Vision insurance, Professional development assistance, Retirement plan, Parental leave",False,https://jobs.part-time.com/job-6,2023-09-08,2023-11-18
+7,Internship,141005,"Dental insurance, Vision insurance, Retirement plan, Parental leave",False,https://jobs.temporary.com/job-7,2023-09-28,2023-10-23
+8,Temporary,132291,"Gym membership, Retirement plan, Dental insurance",True,https://jobs.full-time.com/job-8,2023-09-29,2023-11-10
+9,Contract,132942,"Paid time off, Health insurance, Retirement plan, Parental leave, Gym membership",True,https://jobs.full-time.com/job-9,2023-09-18,2023-11-17
+10,Full-time,64580,"Vision insurance, Gym membership",True,https://jobs.temporary.com/job-10,2023-09-10,2023-11-26
+11,Part-time,41233,"Health insurance, Paid time off, Gym membership, Dental insurance, Tuition reimbursement",False,https://jobs.contract.com/job-11,2023-09-10,2023-11-12
+12,Contract,98866,"Tuition reimbursement, Health insurance",False,https://jobs.part-time.com/job-12,2023-10-01,2023-10-25
+13,Part-time,84920,"Gym membership, Professional development assistance, Health insurance, Tuition reimbursement, Vision insurance",True,https://jobs.part-time.com/job-13,2023-09-11,2023-11-13
+14,Internship,72290,"Dental insurance, Vision insurance, Tuition reimbursement, Health insurance, Paid time off",False,https://jobs.internship.com/job-14,2023-09-13,2023-10-21
+15,Temporary,146086,"Dental insurance, Retirement plan, Gym membership, Vision insurance",False,https://jobs.part-time.com/job-15,2023-09-16,2023-11-03
+16,Temporary,103530,"Retirement plan, Gym membership, Tuition reimbursement, Dental insurance",True,https://jobs.full-time.com/job-16,2023-09-22,2023-10-29
+17,Temporary,140767,"Dental insurance, Professional development assistance",True,https://jobs.contract.com/job-17,2023-09-19,2023-11-14
+18,Full-time,117908,"Gym membership, Paid time off, Vision insurance, Retirement plan",False,https://jobs.temporary.com/job-18,2023-09-28,2023-10-17
+19,Part-time,103860,"Dental insurance, Health insurance, Parental leave",True,https://jobs.temporary.com/job-19,2023-09-24,2023-11-30
+20,Contract,103906,"Tuition reimbursement, Parental leave, Retirement plan",False,https://jobs.contract.com/job-20,2023-09-17,2023-11-13
+21,Full-time,114694,"Vision insurance, Tuition reimbursement, Paid time off, Health insurance, Dental insurance",True,https://jobs.temporary.com/job-21,2023-09-08,2023-11-15
+22,Internship,107914,"Health insurance, Retirement plan, Dental insurance",False,https://jobs.full-time.com/job-22,2023-09-05,2023-11-27
+23,Internship,118976,"Tuition reimbursement, Health insurance",False,https://jobs.internship.com/job-23,2023-09-25,2023-10-23
+24,Temporary,126027,"Health insurance, Parental leave",True,https://jobs.contract.com/job-24,2023-09-12,2023-10-31
+25,Full-time,149324,"Dental insurance, Retirement plan",False,https://jobs.temporary.com/job-25,2023-09-06,2023-11-04
+26,Temporary,41445,"Vision insurance, Retirement plan",True,https://jobs.contract.com/job-26,2023-09-25,2023-11-04
+27,Part-time,120033,"Professional development assistance, Tuition reimbursement",False,https://jobs.temporary.com/job-27,2023-09-18,2023-11-26
+28,Full-time,140011,"Professional development assistance, Parental leave, Vision insurance, Dental insurance, Health insurance",False,https://jobs.part-time.com/job-28,2023-09-30,2023-11-17
+29,Internship,128525,"Gym membership, Tuition reimbursement, Retirement plan",False,https://jobs.internship.com/job-29,2023-09-24,2023-11-09
+30,Part-time,125943,"Paid time off, Gym membership",True,https://jobs.full-time.com/job-30,2023-09-02,2023-10-22
+31,Full-time,119209,"Professional development assistance, Parental leave, Paid time off",False,https://jobs.temporary.com/job-31,2023-09-08,2023-11-10
+32,Internship,69223,"Dental insurance, Retirement plan",True,https://jobs.full-time.com/job-32,2023-09-05,2023-11-03
+33,Full-time,116118,"Parental leave, Tuition reimbursement, Health insurance, Dental insurance",True,https://jobs.full-time.com/job-33,2023-09-04,2023-11-18
+34,Internship,98488,"Dental insurance, Professional development assistance, Tuition reimbursement, Vision insurance, Gym membership",False,https://jobs.full-time.com/job-34,2023-09-25,2023-10-29
+35,Full-time,102752,"Health insurance, Vision insurance, Paid time off, Parental leave",False,https://jobs.contract.com/job-35,2023-09-08,2023-11-07
+36,Internship,145791,"Professional development assistance, Tuition reimbursement, Parental leave, Dental insurance, Health insurance",False,https://jobs.temporary.com/job-36,2023-09-13,2023-11-23
+37,Contract,96880,"Professional development assistance, Health insurance, Gym membership, Vision insurance, Retirement plan",True,https://jobs.full-time.com/job-37,2023-09-29,2023-10-29
+38,Temporary,119802,"Retirement plan, Paid time off, Gym membership",True,https://jobs.contract.com/job-38,2023-09-04,2023-11-04
+39,Contract,120379,"Paid time off, Tuition reimbursement",False,https://jobs.internship.com/job-39,2023-09-08,2023-11-08
+40,Part-time,102076,"Vision insurance, Dental insurance, Retirement plan, Health insurance",False,https://jobs.temporary.com/job-40,2023-09-08,2023-10-31
+41,Full-time,130687,"Vision insurance, Retirement plan, Gym membership, Professional development assistance",True,https://jobs.full-time.com/job-41,2023-09-15,2023-11-02
+42,Contract,140253,"Tuition reimbursement, Gym membership, Paid time off, Vision insurance, Health insurance",False,https://jobs.full-time.com/job-42,2023-09-03,2023-11-08
+43,Full-time,137682,"Retirement plan, Dental insurance, Parental leave, Paid time off, Gym membership",True,https://jobs.contract.com/job-43,2023-09-28,2023-11-30
+44,Full-time,53931,"Dental insurance, Health insurance, Retirement plan, Paid time off, Gym membership",False,https://jobs.contract.com/job-44,2023-09-07,2023-11-19
+45,Temporary,129123,"Vision insurance, Tuition reimbursement, Retirement plan, Paid time off, Dental insurance",False,https://jobs.contract.com/job-45,2023-09-09,2023-11-29
+46,Contract,147776,"Vision insurance, Dental insurance, Health insurance, Professional development assistance, Gym membership",False,https://jobs.contract.com/job-46,2023-09-07,2023-11-15
+47,Temporary,110589,"Parental leave, Tuition reimbursement, Vision insurance, Health insurance",True,https://jobs.temporary.com/job-47,2023-09-20,2023-11-06
+48,Internship,150616,"Dental insurance, Parental leave, Vision insurance, Retirement plan, Health insurance",False,https://jobs.temporary.com/job-48,2023-09-12,2023-11-18
+49,Contract,94390,"Paid time off, Dental insurance, Gym membership",False,https://jobs.contract.com/job-49,2023-09-28,2023-11-09
+50,Part-time,133704,"Dental insurance, Health insurance, Professional development assistance",False,https://jobs.internship.com/job-50,2023-09-18,2023-11-28
+51,Contract,93847,"Health insurance, Paid time off, Vision insurance, Dental insurance, Retirement plan",True,https://jobs.part-time.com/job-51,2023-09-06,2023-11-26
+52,Part-time,125450,"Gym membership, Professional development assistance, Vision insurance, Retirement plan, Parental leave",True,https://jobs.temporary.com/job-52,2023-09-11,2023-10-27
+53,Part-time,63890,"Parental leave, Tuition reimbursement",False,https://jobs.internship.com/job-53,2023-09-25,2023-11-21
+54,Full-time,93886,"Vision insurance, Health insurance, Professional development assistance",True,https://jobs.contract.com/job-54,2023-09-09,2023-11-09
+55,Full-time,52871,"Gym membership, Dental insurance, Parental leave",True,https://jobs.part-time.com/job-55,2023-09-22,2023-11-17
+56,Internship,120327,"Tuition reimbursement, Retirement plan, Parental leave, Paid time off",False,https://jobs.temporary.com/job-56,2023-09-27,2023-10-27
+57,Contract,58783,"Parental leave, Gym membership, Retirement plan, Professional development assistance",True,https://jobs.internship.com/job-57,2023-09-15,2023-11-01
+58,Part-time,71376,"Gym membership, Parental leave, Vision insurance, Paid time off",True,https://jobs.part-time.com/job-58,2023-09-23,2023-10-31
+59,Temporary,98540,"Gym membership, Professional development assistance, Paid time off, Health insurance",False,https://jobs.temporary.com/job-59,2023-09-23,2023-11-20
+60,Part-time,43037,"Retirement plan, Professional development assistance",True,https://jobs.internship.com/job-60,2023-09-21,2023-11-12
+61,Temporary,163201,"Tuition reimbursement, Paid time off, Health insurance, Professional development assistance",False,https://jobs.full-time.com/job-61,2023-09-22,2023-12-01
+62,Temporary,147817,"Dental insurance, Professional development assistance, Retirement plan, Parental leave, Health insurance",False,https://jobs.temporary.com/job-62,2023-09-16,2023-11-11
+63,Internship,46706,"Health insurance, Paid time off",True,https://jobs.contract.com/job-63,2023-09-08,2023-11-06
+64,Contract,50951,"Gym membership, Professional development assistance, Retirement plan",False,https://jobs.contract.com/job-64,2023-09-04,2023-11-16
+65,Temporary,100713,"Professional development assistance, Dental insurance, Parental leave, Tuition reimbursement, Paid time off",True,https://jobs.temporary.com/job-65,2023-09-05,2023-10-28
+66,Contract,95390,"Health insurance, Paid time off, Professional development assistance",False,https://jobs.internship.com/job-66,2023-09-15,2023-10-22
+67,Part-time,132912,"Professional development assistance, Gym membership",True,https://jobs.full-time.com/job-67,2023-10-02,2023-11-01
+68,Internship,65744,"Gym membership, Tuition reimbursement, Dental insurance",True,https://jobs.internship.com/job-68,2023-09-05,2023-10-28
+69,Contract,143402,"Paid time off, Retirement plan, Health insurance, Parental leave, Tuition reimbursement",True,https://jobs.full-time.com/job-69,2023-09-26,2023-10-24
+70,Contract,109071,"Tuition reimbursement, Professional development assistance, Retirement plan, Paid time off, Parental leave",True,https://jobs.full-time.com/job-70,2023-09-22,2023-10-26
+71,Temporary,109472,"Professional development assistance, Retirement plan, Parental leave, Vision insurance",True,https://jobs.full-time.com/job-71,2023-09-29,2023-12-01
+72,Part-time,71289,"Vision insurance, Gym membership",False,https://jobs.contract.com/job-72,2023-09-28,2023-11-15
+73,Temporary,141200,"Dental insurance, Tuition reimbursement, Retirement plan, Professional development assistance",True,https://jobs.internship.com/job-73,2023-09-16,2023-10-20
+74,Contract,129355,"Parental leave, Gym membership, Vision insurance",False,https://jobs.part-time.com/job-74,2023-09-06,2023-11-10
+75,Temporary,158896,"Retirement plan, Vision insurance, Gym membership, Health insurance",True,https://jobs.contract.com/job-75,2023-09-29,2023-11-17
+76,Part-time,46945,"Dental insurance, Health insurance, Gym membership, Paid time off, Professional development assistance",False,https://jobs.contract.com/job-76,2023-09-22,2023-11-01
+77,Part-time,139740,"Dental insurance, Retirement plan, Paid time off, Tuition reimbursement, Professional development assistance",False,https://jobs.part-time.com/job-77,2023-09-13,2023-10-29
+78,Internship,51132,"Professional development assistance, Dental insurance, Health insurance, Tuition reimbursement, Paid time off",True,https://jobs.part-time.com/job-78,2023-09-04,2023-11-20
+79,Part-time,159628,"Health insurance, Parental leave, Tuition reimbursement",False,https://jobs.internship.com/job-79,2023-09-07,2023-10-28
+80,Contract,60243,"Retirement plan, Vision insurance, Parental leave, Professional development assistance, Paid time off",True,https://jobs.contract.com/job-80,2023-09-06,2023-11-03
+81,Part-time,102447,"Vision insurance, Retirement plan, Paid time off, Dental insurance",False,https://jobs.part-time.com/job-81,2023-09-07,2023-11-13
+82,Contract,142852,"Dental insurance, Gym membership",True,https://jobs.temporary.com/job-82,2023-09-07,2023-11-15
+83,Full-time,109594,"Vision insurance, Paid time off",False,https://jobs.internship.com/job-83,2023-09-11,2023-10-24
+84,Temporary,101025,"Parental leave, Tuition reimbursement, Gym membership",True,https://jobs.part-time.com/job-84,2023-09-07,2023-11-09
+85,Internship,114158,"Retirement plan, Health insurance",False,https://jobs.internship.com/job-85,2023-09-25,2023-11-08
+86,Full-time,67614,"Tuition reimbursement, Vision insurance, Parental leave, Dental insurance, Paid time off",True,https://jobs.full-time.com/job-86,2023-09-02,2023-10-29
+87,Part-time,52687,"Professional development assistance, Paid time off, Health insurance, Tuition reimbursement, Gym membership",False,https://jobs.part-time.com/job-87,2023-09-27,2023-10-27
+88,Part-time,133709,"Paid time off, Health insurance, Gym membership",False,https://jobs.temporary.com/job-88,2023-09-07,2023-11-20
+89,Part-time,95775,"Professional development assistance, Tuition reimbursement",True,https://jobs.full-time.com/job-89,2023-09-16,2023-11-19
+90,Temporary,131456,"Tuition reimbursement, Parental leave, Vision insurance",True,https://jobs.full-time.com/job-90,2023-09-24,2023-11-07
+91,Temporary,149139,"Professional development assistance, Tuition reimbursement, Dental insurance, Retirement plan, Gym membership",False,https://jobs.part-time.com/job-91,2023-09-12,2023-11-17
+92,Full-time,112923,"Professional development assistance, Gym membership, Retirement plan",True,https://jobs.part-time.com/job-92,2023-09-19,2023-11-15
+93,Full-time,44946,"Gym membership, Paid time off",True,https://jobs.contract.com/job-93,2023-09-16,2023-10-19
+94,Full-time,162249,"Parental leave, Vision insurance, Professional development assistance, Health insurance, Tuition reimbursement",False,https://jobs.part-time.com/job-94,2023-09-15,2023-11-25
+95,Full-time,100973,"Dental insurance, Parental leave, Health insurance, Gym membership, Tuition reimbursement",False,https://jobs.full-time.com/job-95,2023-10-01,2023-11-27
+96,Internship,55197,"Professional development assistance, Parental leave, Tuition reimbursement",True,https://jobs.contract.com/job-96,2023-09-05,2023-11-04
+97,Contract,117249,"Professional development assistance, Health insurance, Retirement plan",False,https://jobs.contract.com/job-97,2023-09-26,2023-11-01
+98,Full-time,105501,"Health insurance, Dental insurance, Professional development assistance, Parental leave, Gym membership",True,https://jobs.contract.com/job-98,2023-09-23,2023-11-24
+99,Full-time,44474,"Paid time off, Tuition reimbursement",True,https://jobs.temporary.com/job-99,2023-09-12,2023-11-14
+100,Contract,76818,"Parental leave, Paid time off, Tuition reimbursement, Retirement plan, Gym membership",True,https://jobs.full-time.com/job-100,2023-09-03,2023-11-24

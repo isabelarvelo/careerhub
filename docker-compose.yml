@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - /Users/isabelarvelo/Desktop/vanderbilt/fall_24/nosql/MiniProject2:/ds5760/mongo
+    command: mongod --bind_ip_all # allows connections from any IP address
+
+  python:
+    image: python:latest
+    ports:
+      - "5001:5000" # Changed from 5000 to 5001 because 5000 was already being used by another application on my local machine. 
+    volumes:
+      - /Users/isabelarvelo/Desktop/vanderbilt/fall_24/nosql/MiniProject2:/ds5760/python
+    working_dir: /ds5760/python
+    # Specifying what command to run when the container is started, and run the data transformation and run-app_docker scripts
+    command: >
+      sh -c "pip install -r requirements.txt && 
+      python -u data_transformation.py &&
+             python -u run-app_docker.py"
+    depends_on:
+      - mongodb

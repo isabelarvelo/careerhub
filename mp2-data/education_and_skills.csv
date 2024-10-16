@@ -1,0 +1,101 @@
+id,required_education,preferred_skills,job_id
+1,High School Diploma,"l, x, e, c",1
+2,High School Diploma,"e, e,  ",2
+3,Bachelor's Degree,"l, e, E, c",3
+4,Bachelor's Degree,"l, a, b",4
+5,High School Diploma,s,5
+6,Bachelor's Degree,"y, P, t, n",6
+7,Bachelor's Degree,"n, a, M",7
+8,Master's Degree,l,8
+9,High School Diploma,"o, Q, L",9
+10,Professional Certification,e,10
+11,Associate Degree,"N, o",11
+12,Associate Degree,"n, e",12
+13,Professional Certification,"e, g, D, i",13
+14,Bachelor's Degree,"r, a",14
+15,Associate Degree,e,15
+16,Master's Degree,"p, r, S, k",16
+17,Bachelor's Degree,"E, e",17
+18,High School Diploma,"c, h",18
+19,Associate Degree,"n, s, N",19
+20,High School Diploma,"a, a",20
+21,Bachelor's Degree,L,21
+22,Bachelor's Degree,A,22
+23,Professional Certification,"t, y",23
+24,Professional Certification,"i, a",24
+25,Professional Certification,R,25
+26,Master's Degree,"l, M, b",26
+27,Bachelor's Degree,"h, P",27
+28,Ph.D.,"a, p, r, k",28
+29,Professional Certification,R,29
+30,Ph.D.,"S, A, S",30
+31,Professional Certification,"L, e, r, n",31
+32,High School Diploma,"i, c, t, i",32
+33,Ph.D.,"N, Q",33
+34,Professional Certification,i,34
+35,Associate Degree,a,35
+36,Master's Degree,"a, a",36
+37,Ph.D.,"r, L",37
+38,Associate Degree,"a, b, a",38
+39,High School Diploma,S,39
+40,Master's Degree,n,40
+41,Ph.D.,"k, a",41
+42,Master's Degree,"n, o, t, D",42
+43,Associate Degree,c,43
+44,Bachelor's Degree,"r, g, a",44
+45,Associate Degree,R,45
+46,Associate Degree,R,46
+47,Professional Certification,"S, l, a",47
+48,High School Diploma,v,48
+49,Professional Certification,"a, i, s, t",49
+50,Bachelor's Degree,"e, a, b, l",50
+51,Ph.D.,"s, i, c, a",51
+52,Associate Degree,"B, D, a",52
+53,High School Diploma,R,53
+54,Master's Degree,"p, n, D",54
+55,Professional Certification,"r, p",55
+56,Associate Degree,o,56
+57,Master's Degree,"t, s, t",57
+58,Ph.D.,k,58
+59,Bachelor's Degree,"g, u, n, e",59
+60,Ph.D.,"a, o, H, o",60
+61,Associate Degree,x,61
+62,Ph.D.,"s, u,  ",62
+63,Master's Degree,"p, n,  , i",63
+64,Ph.D.,"P, s",64
+65,Master's Degree,"l, e",65
+66,Ph.D.,"l, x, E",66
+67,High School Diploma, ,67
+68,Associate Degree,"c, r",68
+69,Associate Degree,"r, o, e, g",69
+70,Associate Degree,"a, S, l, a",70
+71,High School Diploma,"a, a, b",71
+72,Ph.D.,"p, k",72
+73,Professional Certification,"a, s, c, P",73
+74,High School Diploma,"S, L",74
+75,Professional Certification,"i, r",75
+76,High School Diploma,"l, u, e, b",76
+77,Bachelor's Degree,R,77
+78,Master's Degree,"t, a, i, a",78
+79,High School Diploma,"N, n, s",79
+80,Bachelor's Degree,"b, l, a, t",80
+81,Professional Certification,"S, i, i",81
+82,Master's Degree,c,82
+83,Ph.D.,l,83
+84,Professional Certification,"Q, S, L",84
+85,Professional Certification,p,85
+86,Bachelor's Degree,"i, t, g",86
+87,Bachelor's Degree,P,87
+88,Ph.D.,R,88
+89,High School Diploma,"a, a, J, v",89
+90,High School Diploma,"a, b, M, t",90
+91,Bachelor's Degree,"a, c",91
+92,Associate Degree,"a, r",92
+93,Ph.D.,R,93
+94,Professional Certification,"h, n, g",94
+95,Bachelor's Degree,"L, Q, S",95
+96,Bachelor's Degree,"S, c, a",96
+97,Associate Degree,a,97
+98,Professional Certification,"l, c, e",98
+99,Master's Degree,t,99
+100,High School Diploma,"a, a, J, v",100
