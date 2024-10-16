@@ -88,12 +88,12 @@ The application should now be running on `http://localhost:5001`.
 
 4. **Update Job Details**
    - URL: `/update_by_job_title`
-   - Method: PUT
+   - Method: POST
    - Description: Updates details of a job by its title
 
 5. **Remove Job Listing**
    - URL: `/delete_by_job_title`
-   - Method: DELETE
+   - Method: POST
    - Description: Deletes a job listing by its title
 
 6. **Salary Range Query**
@@ -115,9 +115,9 @@ The application should now be running on `http://localhost:5001`.
    - Description: Adds or updates industry information
 
 9. **Top Companies in an Industry**
-   - URL: `/top_companies`
+   - URL: `/top_companies_by_industry`
    - Method: GET
-   - Query Parameter: `industry`
+   - Query Parameter: `industry_name`
    - Description: Retrieves top companies in a given industry based on job listing count
 
 10. **View Industry Info**
@@ -126,7 +126,7 @@ The application should now be running on `http://localhost:5001`.
    - Query Parameter: `industry_name`
    - Description: Retrieves industry information based on industry name
 
-11. **Company Info**
+11. **View Company Info**
    - URL: `/company_info`
    - Method: GET
    - Query Parameter: `company_name`
@@ -140,7 +140,7 @@ The application should now be running on `http://localhost:5001`.
 
 ## Testing
 
-You can test the API endpoints using tools like Postman. Ensure to set the appropriate headers and request bodies as required by each endpoint. If you get confused about any of the endpoints, you can always refer to the code in the `career_hub.py`. 
+You can test the API endpoints using tools like Postman. Ensure to set the appropriate headers and request bodies as required by each endpoint. All POST endpoints provide detailed instructions when accessed with a GET request. If you get confused about any of the endpoints, you can always refer to the code in the `career_hub.py`. Future work will focus on building a more user-friendly front-end for this application. 
 
 ## Schema Design 
 
@@ -152,11 +152,11 @@ The justification for the schemas is as follows:
 
 - **Jobs Collection**: This is the core of the career hub and is designed to store job postings with all of the information associated with them. The job_id is used to uniquely identify each job listing. The reason I chose to include so many fields is because I wanted to store all of the information associated with each job listing in one place. From my prior experience with job portals, as a user I want to see all of the information about a job before I even apply, so I built this into the schema.
 
-- **Industries Schema**: This schema is designed to store industry information with attributes such as industry_name, growth_rates, and industry_skills. This schema allows for easy querying and analysis of industry trends and skills without a focus on any specific job or company.
+- **Industries Collection**: This schema is designed to store industry information with attributes such as industry_name, growth_rates, and industry_skills. This schema allows for easy querying and analysis of industry trends and skills without a focus on any specific job or company.
 
-- **Companies Schema**: This schema is designed to store company information with attributes such as company_id, name, size, type, location, website, description, and hr_contact.  This schema allows for easy querying and analysis of company information. This scheme allows someone to learn about a company without necessarily having to consider specific jobs, and I think this is important for a job portal for people to learn what is out there, even if there are no jobs currenly available or posted. 
+- **Companies Collection**: This schema is designed to store company information with attributes such as company_id, name, size, type, location, website, description, and hr_contact.  This schema allows for easy querying and analysis of company information. This scheme allows someone to learn about a company without necessarily having to consider specific jobs, and I think this is important for a job portal for people to learn what is out there, even if there are no jobs currenly available or posted. 
 
-In future iterations, I would consider a more nested structure and buildoing out more tailored collectios for different points of view, for example, a user or a company. This solution is more of a prototype and would be improved with user testing. 
+In future iterations, I would consider a more nested structure and building out more tailored collectios for different points of view, for example, a user or a company. This solution is more of a prototype and would be improved with user testing. 
 
 ## File Structure
 
@@ -166,13 +166,8 @@ In future iterations, I would consider a more nested structure and buildoing out
 - data_transformation.py: Contains the code to transform the data and load it into the database.
 - mp2-data/: Contains the data files used to populate the database.
 - docker-compose.yml: Contains the configuration for the Docker containers.
-- Dockerfile: Contains the configuration to set up Docker image for application
 - requirements.txt: Contains the dependencies for the project.
 - schema_design.png: Contains the schema design for the jobs, industries, and companies collections.
-
-## Contributing
-
-Contributions to CareerHub are welcome! Please feel free to submit a Pull Request.
 
 ## Generative AI Usage 
 
