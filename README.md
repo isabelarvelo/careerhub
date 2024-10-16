@@ -14,6 +14,9 @@ CareerHub is a mini job portal application built with MongoDB and Flask. It prov
 - Filter jobs by experience level
 - Add more industry details
 - View top companies in a specific industry
+- Get general information about a specific industry
+- Get general information about a specific company
+- Search which jobs are posted in a certain industry 
 
 
 ## Setup and Installation
