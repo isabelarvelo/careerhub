@@ -36,15 +36,13 @@ CareerHub is a mini job portal application built with MongoDB and Flask. It prov
    cd careerhub
    ```
 
-2. Edit the docker-compose.yml file to change the volume to the path on your local machine where the project is stored (the default is the Desktop/vanderbilt/fall_24/nosql/MiniProject2 directory on my local machine, so you'll want to change that to a path on your local machine)
-
-3. Build container (make sure docker is running):
+2. Build container (make sure docker is running):
 
 ```
 docker-compose up 
 ```
 
-4. Import data into MongoDB:
+3. Import data into MongoDB:
 
    - Open a new tab in your terminal and enter the mongo shell:
 
@@ -66,9 +64,13 @@ docker-compose up
    - You should see the following output:
    ![MongoDB import screen shot](successful_import.png)
 
-5. Open Postman and test the endpoints (see API Endpoints section below)
+4. Open [Postman](https://www.postman.com/) and test the endpoints (see API Endpoints section below)
 
 The application should now be running on `http://localhost:5001`.
+
+![Example Post Request](assets/post.png)
+
+
 
 ## API Endpoints
 
@@ -81,6 +83,18 @@ The application should now be running on `http://localhost:5001`.
    - URL: `/create/jobPost`
    - Method: POST
    - Description: Creates a new job posting
+  
+   - Example Body:
+   ```
+   {
+     "title": "Machine Learning Engineer",
+     "industry": "Agricultural Tech",
+     "description": "Designing and developing machine learning systems, implementing appropriate ML algorithms, and conducting experiments to predict crop yields",
+     "average_salary": 130000,
+     "company_name": "Plantify", 
+     "location": "Potlach, ID"
+   }
+   ```
 
 3. **View Job Details**
    - URL: `/search_by_job_id/<job_id>`
@@ -91,53 +105,121 @@ The application should now be running on `http://localhost:5001`.
    - URL: `/update_by_job_title`
    - Method: POST
    - Description: Updates details of a job by its title
+   - Example Body:
+   ```
+   {
+       "title": "E-commerce Data Analyst",
+       "job_id": 9, 
+       "update": {
+           "average_salary": 85000
+       }
+   }
+   ```
+
+   This will then return a list of matches and ask you to confirm update by sending another POST request with 'confirm_update:true' and the same search criteria. 
+
 
 5. **Remove Job Listing**
    - URL: `/delete_by_job_title`
    - Method: POST
    - Description: Deletes a job listing by its title
+   - Example Body:
+   ```
+   {
+       "title": "E-commerce Data Analyst",
+       "job_id": 9
+   }
+   ```
+
+   This will then return a list of matches and ask you to confirm deletion by sending another POST request with 'confirm_delete:true' and the same search criteria. 
 
 6. **Salary Range Query**
    - URL: `/jobs/salary_range`
    - Method: GET
    - Query Parameters: `min_salary`, `max_salary`
    - Description: Retrieves jobs within a specified salary range
+   - Example Body:
+   ```
+   { 
+        "min_salary": 85247,
+        "max_salary": 85248
+    }
+   ```
 
+   
 7. **Job Experience Level Query**
    - URL: `/jobs/experience_level`
    - Method: GET
    - Query Parameter: `experience_level`
-   - Description: Retrieves jobs matching a specific experience level
+   - Description: Retrieves jobs matching a specific experience level (Entry Level, Mid Level, Senior Level)
+   -  Example Body:
+   ```
+      {
+        "experience_level": ["Entry Level", "Mid Level"]
+    }
+   ```     
 
 8. **Industry Info**
    - URL: `add/industry_info`
    - Method: POST
    - Query Parameter: `industry_name`
    - Description: Adds or updates industry information
-
+   -  Example Body:
+   ```     
+    {
+     "industry_name": "Prompt Engineering",
+     "growth_rates": [0.03, 0.06, 0.1, 0.04, 0.04],
+     "industry_skills": ["Problem Solving", "Communication", "Analytics"],
+     "top_companies": ["Prompt Engineering Agency"],
+     "trends": ["Generative AI", "Prompt Engineering Tools"]
+    }
+   ```
+   
 9. **Top Companies in an Industry**
    - URL: `/top_companies_by_industry`
    - Method: GET
    - Query Parameter: `industry_name`
    - Description: Retrieves top companies in a given industry based on job listing count
-
+   -  Example Body:
+   ```     
+     {
+        "industry_name": "Finance"
+    }
+   ```
+   
 10. **View Industry Info**
    - URL: `/industry_info`
    - Method: GET
    - Query Parameter: `industry_name`
    - Description: Retrieves industry information based on industry name
+   ```     
+    {
+        "industry_name": "Finance"
+    }
+   ```
 
 11. **View Company Info**
    - URL: `/company_info`
    - Method: GET
    - Query Parameter: `company_name`
    - Description: Retrieves company information based on company name
+   ```     
+    {
+        "company_name": "DataPulse Systems"
+    }
+   ```
 
 12. **Search_jobs_by_industry**
    - URL: `/search_by_industry`
    - Method: GET
    - Query Parameter: `industry_name`
-   - Description: Retrieves jobs in a specific industry
+   - Description: Retrieves jobs in a specific industry (Finance, Consulting, Tech, etc.)
+   ```     
+    {
+        "industry_name": "Finance"
+    }
+   ```
+
 
 ## Testing
 
