@@ -1,4 +1,5 @@
 # CareerHub: Mini Job Portal with MongoDB and Flask
+> Fall 2024
 
 ## Overview
 
@@ -186,7 +187,7 @@ I attempted to write all of the code by myself, however, I used generative AI to
 
 
 ## References
-- A lot of the code in career_hub.py and utils.py was referenced from the in class activities and code written by Professor Zhang.
+- A lot of the code in career_hub.py and utils.py was referenced from the in class activities and code written by Professor Dana Zhang at Vanderbilt University .
 - I used the pymongo and MongoDB documentation to help me extend the functionality of the code to handle more complex queries and updates beyond what was taught in class.
 - I used the following sites to help me understand the Mongo bind_ip_all flag:
     - https://stackoverflow.com/questions/55348228/difference-between-mongos-bind-ip-and-bind-ip-all
